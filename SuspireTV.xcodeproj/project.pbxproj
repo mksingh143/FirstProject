@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C3E83BD1FD81BA300EBE1D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E83BC1FD81BA300EBE1D0 /* AppDelegate.swift */; };
+		1C3E83BF1FD81BA300EBE1D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E83BE1FD81BA300EBE1D0 /* ViewController.swift */; };
+		1C3E83C21FD81BA300EBE1D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3E83C01FD81BA300EBE1D0 /* Main.storyboard */; };
+		1C3E83C41FD81BA300EBE1D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3E83C31FD81BA300EBE1D0 /* Assets.xcassets */; };
+		1C3E83CF1FD81BA400EBE1D0 /* SuspireTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E83CE1FD81BA400EBE1D0 /* SuspireTVTests.swift */; };
+		1C3E83DA1FD81BA400EBE1D0 /* SuspireTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E83D91FD81BA400EBE1D0 /* SuspireTVUITests.swift */; };
+		1C3E83E81FD81E9400EBE1D0 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E83E71FD81E9400EBE1D0 /* MovieCollectionViewCell.swift */; };
+		1C3E83EA1FD820F300EBE1D0 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E83E91FD820F300EBE1D0 /* HeaderCollectionReusableView.swift */; };
+		1C3E83EC1FD822AC00EBE1D0 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3E83EB1FD822AC00EBE1D0 /* DataModel.swift */; };
+		1C8837AA1FD9100B008327C6 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8837A91FD9100B008327C6 /* VideoPlayerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C3E83CB1FD81BA400EBE1D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C3E83B11FD81BA300EBE1D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C3E83B81FD81BA300EBE1D0;
+			remoteInfo = SuspireTV;
+		};
+		1C3E83D61FD81BA400EBE1D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C3E83B11FD81BA300EBE1D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C3E83B81FD81BA300EBE1D0;
+			remoteInfo = SuspireTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C3E83B91FD81BA300EBE1D0 /* SuspireTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuspireTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3E83BC1FD81BA300EBE1D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C3E83BE1FD81BA300EBE1D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C3E83C11FD81BA300EBE1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C3E83C31FD81BA300EBE1D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C3E83C51FD81BA300EBE1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C3E83CA1FD81BA400EBE1D0 /* SuspireTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuspireTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3E83CE1FD81BA400EBE1D0 /* SuspireTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspireTVTests.swift; sourceTree = "<group>"; };
+		1C3E83D01FD81BA400EBE1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C3E83D51FD81BA400EBE1D0 /* SuspireTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuspireTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3E83D91FD81BA400EBE1D0 /* SuspireTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuspireTVUITests.swift; sourceTree = "<group>"; };
+		1C3E83DB1FD81BA400EBE1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C3E83E71FD81E9400EBE1D0 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		1C3E83E91FD820F300EBE1D0 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		1C3E83EB1FD822AC00EBE1D0 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		1C8837A91FD9100B008327C6 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C3E83B61FD81BA300EBE1D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3E83C71FD81BA400EBE1D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3E83D21FD81BA400EBE1D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C3E83B01FD81BA300EBE1D0 = {
+			isa = PBXGroup;
+			children = (
+				1C3E83BB1FD81BA300EBE1D0 /* SuspireTV */,
+				1C3E83CD1FD81BA400EBE1D0 /* SuspireTVTests */,
+				1C3E83D81FD81BA400EBE1D0 /* SuspireTVUITests */,
+				1C3E83BA1FD81BA300EBE1D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C3E83BA1FD81BA300EBE1D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C3E83B91FD81BA300EBE1D0 /* SuspireTV.app */,
+				1C3E83CA1FD81BA400EBE1D0 /* SuspireTVTests.xctest */,
+				1C3E83D51FD81BA400EBE1D0 /* SuspireTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C3E83BB1FD81BA300EBE1D0 /* SuspireTV */ = {
+			isa = PBXGroup;
+			children = (
+				1C3E83BC1FD81BA300EBE1D0 /* AppDelegate.swift */,
+				1C3E83BE1FD81BA300EBE1D0 /* ViewController.swift */,
+				1C3E83C01FD81BA300EBE1D0 /* Main.storyboard */,
+				1C8837A91FD9100B008327C6 /* VideoPlayerViewController.swift */,
+				1C3E83EB1FD822AC00EBE1D0 /* DataModel.swift */,
+				1C3E83E91FD820F300EBE1D0 /* HeaderCollectionReusableView.swift */,
+				1C3E83E71FD81E9400EBE1D0 /* MovieCollectionViewCell.swift */,
+				1C3E83C31FD81BA300EBE1D0 /* Assets.xcassets */,
+				1C3E83C51FD81BA300EBE1D0 /* Info.plist */,
+			);
+			path = SuspireTV;
+			sourceTree = "<group>";
+		};
+		1C3E83CD1FD81BA400EBE1D0 /* SuspireTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C3E83CE1FD81BA400EBE1D0 /* SuspireTVTests.swift */,
+				1C3E83D01FD81BA400EBE1D0 /* Info.plist */,
+			);
+			path = SuspireTVTests;
+			sourceTree = "<group>";
+		};
+		1C3E83D81FD81BA400EBE1D0 /* SuspireTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C3E83D91FD81BA400EBE1D0 /* SuspireTVUITests.swift */,
+				1C3E83DB1FD81BA400EBE1D0 /* Info.plist */,
+			);
+			path = SuspireTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C3E83B81FD81BA300EBE1D0 /* SuspireTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C3E83DE1FD81BA400EBE1D0 /* Build configuration list for PBXNativeTarget "SuspireTV" */;
+			buildPhases = (
+				1C3E83B51FD81BA300EBE1D0 /* Sources */,
+				1C3E83B61FD81BA300EBE1D0 /* Frameworks */,
+				1C3E83B71FD81BA300EBE1D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuspireTV;
+			productName = SuspireTV;
+			productReference = 1C3E83B91FD81BA300EBE1D0 /* SuspireTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C3E83C91FD81BA400EBE1D0 /* SuspireTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C3E83E11FD81BA400EBE1D0 /* Build configuration list for PBXNativeTarget "SuspireTVTests" */;
+			buildPhases = (
+				1C3E83C61FD81BA400EBE1D0 /* Sources */,
+				1C3E83C71FD81BA400EBE1D0 /* Frameworks */,
+				1C3E83C81FD81BA400EBE1D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C3E83CC1FD81BA400EBE1D0 /* PBXTargetDependency */,
+			);
+			name = SuspireTVTests;
+			productName = SuspireTVTests;
+			productReference = 1C3E83CA1FD81BA400EBE1D0 /* SuspireTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C3E83D41FD81BA400EBE1D0 /* SuspireTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C3E83E41FD81BA400EBE1D0 /* Build configuration list for PBXNativeTarget "SuspireTVUITests" */;
+			buildPhases = (
+				1C3E83D11FD81BA400EBE1D0 /* Sources */,
+				1C3E83D21FD81BA400EBE1D0 /* Frameworks */,
+				1C3E83D31FD81BA400EBE1D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C3E83D71FD81BA400EBE1D0 /* PBXTargetDependency */,
+			);
+			name = SuspireTVUITests;
+			productName = SuspireTVUITests;
+			productReference = 1C3E83D51FD81BA400EBE1D0 /* SuspireTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C3E83B11FD81BA300EBE1D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = SoftIndigo;
+				TargetAttributes = {
+					1C3E83B81FD81BA300EBE1D0 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					1C3E83C91FD81BA400EBE1D0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1C3E83B81FD81BA300EBE1D0;
+					};
+					1C3E83D41FD81BA400EBE1D0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1C3E83B81FD81BA300EBE1D0;
+					};
+				};
+			};
+			buildConfigurationList = 1C3E83B41FD81BA300EBE1D0 /* Build configuration list for PBXProject "SuspireTV" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C3E83B01FD81BA300EBE1D0;
+			productRefGroup = 1C3E83BA1FD81BA300EBE1D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C3E83B81FD81BA300EBE1D0 /* SuspireTV */,
+				1C3E83C91FD81BA400EBE1D0 /* SuspireTVTests */,
+				1C3E83D41FD81BA400EBE1D0 /* SuspireTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C3E83B71FD81BA300EBE1D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3E83C41FD81BA300EBE1D0 /* Assets.xcassets in Resources */,
+				1C3E83C21FD81BA300EBE1D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3E83C81FD81BA400EBE1D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3E83D31FD81BA400EBE1D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C3E83B51FD81BA300EBE1D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3E83EC1FD822AC00EBE1D0 /* DataModel.swift in Sources */,
+				1C3E83EA1FD820F300EBE1D0 /* HeaderCollectionReusableView.swift in Sources */,
+				1C3E83E81FD81E9400EBE1D0 /* MovieCollectionViewCell.swift in Sources */,
+				1C8837AA1FD9100B008327C6 /* VideoPlayerViewController.swift in Sources */,
+				1C3E83BF1FD81BA300EBE1D0 /* ViewController.swift in Sources */,
+				1C3E83BD1FD81BA300EBE1D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3E83C61FD81BA400EBE1D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3E83CF1FD81BA400EBE1D0 /* SuspireTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C3E83D11FD81BA400EBE1D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3E83DA1FD81BA400EBE1D0 /* SuspireTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C3E83CC1FD81BA400EBE1D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C3E83B81FD81BA300EBE1D0 /* SuspireTV */;
+			targetProxy = 1C3E83CB1FD81BA400EBE1D0 /* PBXContainerItemProxy */;
+		};
+		1C3E83D71FD81BA400EBE1D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C3E83B81FD81BA300EBE1D0 /* SuspireTV */;
+			targetProxy = 1C3E83D61FD81BA400EBE1D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C3E83C01FD81BA300EBE1D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C3E83C11FD81BA300EBE1D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C3E83DC1FD81BA400EBE1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		1C3E83DD1FD81BA400EBE1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TVOS_DEPLOYMENT_TARGET = 11.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C3E83DF1FD81BA400EBE1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuspireTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.totalvdo.SuspireTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		1C3E83E01FD81BA400EBE1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuspireTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.totalvdo.SuspireTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		1C3E83E21FD81BA400EBE1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuspireTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.totalvdo.SuspireTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuspireTV.app/SuspireTV";
+			};
+			name = Debug;
+		};
+		1C3E83E31FD81BA400EBE1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuspireTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.totalvdo.SuspireTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuspireTV.app/SuspireTV";
+			};
+			name = Release;
+		};
+		1C3E83E51FD81BA400EBE1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuspireTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.totalvdo.SuspireTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = SuspireTV;
+			};
+			name = Debug;
+		};
+		1C3E83E61FD81BA400EBE1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuspireTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.totalvdo.SuspireTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = SuspireTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C3E83B41FD81BA300EBE1D0 /* Build configuration list for PBXProject "SuspireTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3E83DC1FD81BA400EBE1D0 /* Debug */,
+				1C3E83DD1FD81BA400EBE1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C3E83DE1FD81BA400EBE1D0 /* Build configuration list for PBXNativeTarget "SuspireTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3E83DF1FD81BA400EBE1D0 /* Debug */,
+				1C3E83E01FD81BA400EBE1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C3E83E11FD81BA400EBE1D0 /* Build configuration list for PBXNativeTarget "SuspireTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3E83E21FD81BA400EBE1D0 /* Debug */,
+				1C3E83E31FD81BA400EBE1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C3E83E41FD81BA400EBE1D0 /* Build configuration list for PBXNativeTarget "SuspireTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3E83E51FD81BA400EBE1D0 /* Debug */,
+				1C3E83E61FD81BA400EBE1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C3E83B11FD81BA300EBE1D0 /* Project object */;
+}
